@@ -1,0 +1,30 @@
+:root {
+  --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+  --GrayishBlue: hsl(212, 23%, 69%);
+  --LightGrayishBlue: hsl(210, 46%, 95%);
+  --White: hsl(0, 0%, 100%);
+  --font-manrope: "Manrope", sans-serif;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+/* main */
+body {
+  background-color: var(--LightGrayishBlue);
+}
+
+main {
+  font-family: var(--font-manrope);
+  background-color: var(--White);
+  width: 80%;
+}
+
+/* Footer */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
